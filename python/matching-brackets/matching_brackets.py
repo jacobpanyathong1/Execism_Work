@@ -1,4 +1,13 @@
 def is_paired(input_string):
+    """This function inputs a string and finds the opening and closing matching bracket
+    and returns True or False output.
+
+    Args:
+        input_string (_type_): str
+
+    Returns:
+        True or False
+    """
 
     # empty stack to keep track of opening brackets
     stack = []
