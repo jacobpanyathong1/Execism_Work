@@ -1,0 +1,5 @@
+/Users/jp/Exercism/csharp/phone-number-analysis/obj/Debug/net7.0/PhoneNumberAnalysis.csproj.AssemblyReference.cache
+/Users/jp/Exercism/csharp/phone-number-analysis/obj/Debug/net7.0/PhoneNumberAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jp/Exercism/csharp/phone-number-analysis/obj/Debug/net7.0/PhoneNumberAnalysis.AssemblyInfoInputs.cache
+/Users/jp/Exercism/csharp/phone-number-analysis/obj/Debug/net7.0/PhoneNumberAnalysis.AssemblyInfo.cs
+/Users/jp/Exercism/csharp/phone-number-analysis/obj/Debug/net7.0/PhoneNumberAnalysis.csproj.CoreCompileInputs.cache

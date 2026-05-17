@@ -1,0 +1,4 @@
+/Users/jp/Exercism/cpp/leap/build/CMakeFiles/leap.dir
+/Users/jp/Exercism/cpp/leap/build/CMakeFiles/test_leap.dir
+/Users/jp/Exercism/cpp/leap/build/CMakeFiles/edit_cache.dir
+/Users/jp/Exercism/cpp/leap/build/CMakeFiles/rebuild_cache.dir

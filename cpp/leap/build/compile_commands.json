@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/jp/Exercism/cpp/leap/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/leap.dir/leap_test.cpp.o -c /Users/jp/Exercism/cpp/leap/leap_test.cpp",
+  "file": "/Users/jp/Exercism/cpp/leap/leap_test.cpp",
+  "output": "CMakeFiles/leap.dir/leap_test.cpp.o"
+},
+{
+  "directory": "/Users/jp/Exercism/cpp/leap/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/leap.dir/leap.cpp.o -c /Users/jp/Exercism/cpp/leap/leap.cpp",
+  "file": "/Users/jp/Exercism/cpp/leap/leap.cpp",
+  "output": "CMakeFiles/leap.dir/leap.cpp.o"
+},
+{
+  "directory": "/Users/jp/Exercism/cpp/leap/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/leap.dir/test/tests-main.cpp.o -c /Users/jp/Exercism/cpp/leap/test/tests-main.cpp",
+  "file": "/Users/jp/Exercism/cpp/leap/test/tests-main.cpp",
+  "output": "CMakeFiles/leap.dir/test/tests-main.cpp.o"
+}
+]

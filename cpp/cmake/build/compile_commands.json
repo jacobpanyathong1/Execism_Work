@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/jp/Exercism/cpp/cmake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/MyCmakeproject.dir/mycppcode.cpp.o -c /Users/jp/Exercism/cpp/cmake/mycppcode.cpp",
+  "file": "/Users/jp/Exercism/cpp/cmake/mycppcode.cpp",
+  "output": "CMakeFiles/MyCmakeproject.dir/mycppcode.cpp.o"
+}
+]
