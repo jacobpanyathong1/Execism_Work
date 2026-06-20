@@ -59,12 +59,8 @@ def how_many_namefellows(queue, person_name):
     :param person_name: str - name you wish to count or track.
     :return: int - the number of times the name appears in the queue.
     """
-    count_value = 0
-
-    for person in queue:
-        if person == person_name:
-            count_value += 1
-    return count_value
+    # list.count does the same loop for us
+    return queue.count(person_name)
 
 
 def remove_the_last_person(queue):
@@ -74,9 +70,9 @@ def remove_the_last_person(queue):
     :return: str - name that has been removed from the end of the queue.
     """
 
-    last_name = queue[-1]
-    queue = queue.remove(queue[-1])
-    return last_name
+    # pop() removes by position (the end) and hands back the name.
+    # remove() would delete the first matching name, not the last one.
+    return queue.pop()
 
 
 def sorted_names(queue):
@@ -85,6 +81,5 @@ def sorted_names(queue):
     :param queue: list - names in the queue.
     :return: list - copy of the queue in alphabetical order.
     """
-    copy_queue = sorted(queue)  # Returns a sorted version of the queue
-    queue.sort()  # Sort the original queue in place
-    return copy_queue
+    # sorted() returns a new list and leaves the original queue alone
+    return sorted(queue)

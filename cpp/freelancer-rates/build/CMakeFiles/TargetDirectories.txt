@@ -1,4 +1,0 @@
-/Users/jp/Exercism/cpp/freelancer-rates/build/CMakeFiles/freelancer-rates.dir
-/Users/jp/Exercism/cpp/freelancer-rates/build/CMakeFiles/test_freelancer-rates.dir
-/Users/jp/Exercism/cpp/freelancer-rates/build/CMakeFiles/edit_cache.dir
-/Users/jp/Exercism/cpp/freelancer-rates/build/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-#if !defined(LEAD_H)
+#if !defined(LEAP_H)
 #define LEAP_H
 namespace leap
 {

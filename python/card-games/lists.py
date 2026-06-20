@@ -31,9 +31,8 @@ def list_contains_round(rounds, number):
     :param number: int - round number.
     :return: bool - was the round played?
     """
-    if number in rounds:
-        return True
-    return False
+    # `in` already gives back a bool, so just return it
+    return number in rounds
 
 
 def card_average(hand):
@@ -57,10 +56,8 @@ def approx_average_is_average(hand):
     # Calculate the middle index (integer division for correct indexing)
     middle_card = len(hand) // 2
 
-    # Check if the sum of the first and last card divided by 2 equals the average, or if the middle card equals the average
-    if ((hand[0] + hand[-1]) / 2 == average) or (hand[middle_card] == average):
-        return True
-    return False
+    # first+last average, or the middle card, matches the true average
+    return ((hand[0] + hand[-1]) / 2 == average) or (hand[middle_card] == average)
 
 
 def average_even_is_average_odd(hand):
@@ -72,12 +69,9 @@ def average_even_is_average_odd(hand):
     even_indexed_cards = [hand[i] for i in range(len(hand)) if i % 2 == 0]
     odd_indexed_cards = [hand[i] for i in range(len(hand)) if i % 2 != 0]
 
-    # Calculate sum and average of even-indexed cards
-    if (sum(even_indexed_cards) / len(even_indexed_cards)) == (
-        sum(odd_indexed_cards) / len(odd_indexed_cards)
-    ):
-        return True
-    return False
+    even_avg = sum(even_indexed_cards) / len(even_indexed_cards)
+    odd_avg = sum(odd_indexed_cards) / len(odd_indexed_cards)
+    return even_avg == odd_avg
 
 
 def maybe_double_last(hand):
@@ -87,7 +81,7 @@ def maybe_double_last(hand):
     :return: list - hand with Jacks (if present) value doubled.
     """
 
+    # build a new list instead of editing the caller's hand in place
     if hand[-1] == 11:
-        hand[-1] = hand[-1] * 2
-        return hand
-    return hand
+        return hand[:-1] + [hand[-1] * 2]
+    return hand[:]

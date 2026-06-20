@@ -1,0 +1,15 @@
+# C++ build artifacts
+build/
+*.o
+*.obj
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Editor / OS
+.vscode/
+.DS_Store
