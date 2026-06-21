@@ -5793,11 +5793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jp/Exercism/csharp/phone-number-analysis/PhoneNumberAnalysis.csproj",
+      "projectUniqueName": "/Users/jp/Exercism/Execism_Work/csharp/phone-number-analysis/PhoneNumberAnalysis.csproj",
       "projectName": "PhoneNumberAnalysis",
-      "projectPath": "/Users/jp/Exercism/csharp/phone-number-analysis/PhoneNumberAnalysis.csproj",
+      "projectPath": "/Users/jp/Exercism/Execism_Work/csharp/phone-number-analysis/PhoneNumberAnalysis.csproj",
       "packagesPath": "/Users/jp/.nuget/packages/",
-      "outputPath": "/Users/jp/Exercism/csharp/phone-number-analysis/obj/",
+      "outputPath": "/Users/jp/Exercism/Execism_Work/csharp/phone-number-analysis/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jp/.nuget/NuGet/NuGet.Config"
